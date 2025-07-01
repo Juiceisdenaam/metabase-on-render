@@ -6,6 +6,3 @@ services:
     region: frankfurt
     image:
       url: metabase/metabase:latest
-    ports:
-      - port: 3000
-        protocol: tcp
