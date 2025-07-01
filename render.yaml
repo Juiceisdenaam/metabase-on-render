@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: metabase
+    env: docker
+    plan: free
+    region: frankfurt
+    image:
+      url: metabase/metabase:latest
+    ports:
+      - port: 3000
+        protocol: tcp
